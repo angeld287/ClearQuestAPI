@@ -30,7 +30,7 @@ namespace ClearQuestAPIDemo
         [WebMethod]
         public string HelloWorld()
         {
-            return "Hello World";
+            return "Hello World ";
         }
 
         [WebMethod]
