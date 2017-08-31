@@ -1,0 +1,21 @@
+[WebMethod]
+        public ArrayList Cslt_Pedidos_Pago(String id_pedido_pago, String id_orden_compra)
+        {
+            //Conexion p = Conexion.instancia();
+
+            //lock (p)
+            //{
+
+            //    var session = p.Conectar();
+
+            //    Operaciones o = new Operaciones();
+            //    //OAdResultset resultset = o.consulta(session, "tabla", "pedido_pago", new string[] { "id", "tipo", "importe_total", "suplidor_fullname" });
+            //    OAdResultset resultset = o.consulta(session, "consulta", "select pp.id,st.name,pp.fecha_pago,pp.fecha_prevision from pedido_pago pp,statedef st,orden_compra oc where pp.state = st.id and pp.ordencompra = oc.dbid and ((pp.id = '" + id_pedido_pago + "' or oc.id = '" + id_orden_compra + "'))");
+            //    resultset.Execute();
+
+            //    Resultado r = new Resultado();
+
+            //    return r.ResultSetArray(resultset, null); 
+            //}
+            return null;
+        }
